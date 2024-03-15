@@ -14,3 +14,9 @@ const even = numbers.filter((n) => n % 2 === 0); // in filter the callback funct
 const colors = ["red", "green", "orange", "maroon", "olive"];
 console.log(colors.every((c) => c.includes("r")));
 console.log(colors.some((c) => c.includes("r")));
+
+const prices = [9.0, 24, 56.55, 78.2, 24.5];
+
+const totalPrice = prices.reduce((total, price) => total + price);
+const minPrice = prices.reduce((min, price) => (price < min ? price : min));
+const maxPrice = prices.reduce((max, price) => (price > max ? price : max));
