@@ -12,6 +12,7 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "figlet": "^1.7.0",
     "javascript": "^1.0.0"
   }
 }
